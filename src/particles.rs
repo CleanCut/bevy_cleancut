@@ -2,10 +2,7 @@
 //! 1. cargo add bevy_particle_systems
 //! 2. .add_plugins(ParticleSystemPlugin)
 
-use bevy::{
-    color::palettes::css::{BLUE, YELLOW},
-    prelude::*,
-};
+use bevy::prelude::*;
 use bevy_particle_systems::*;
 
 /// Trail of particles.
