@@ -13,5 +13,6 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 bevy = "0.14.1"
+bevy_particle_systems = "0.13.0"
 bevy_rapier2d = "0.27.0"
 rand = "0.8.5"

@@ -431,6 +431,7 @@ name = "bevy_cleancut"
 version = "0.0.0"
 dependencies = [
  "bevy",
+ "bevy_particle_systems",
  "bevy_rapier2d",
  "rand",
 ]
@@ -758,6 +759,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "24a1ad15685c6035e01bdc9d5ea082558ef1438e9d40d69fc552857dd7e83e71"
 dependencies = [
  "glam",
+]
+
+[[package]]
+name = "bevy_particle_systems"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6355fc6d813d41d32fbab7a7ebd87d9dd9b2ad0a9e8509094de7a23108d47b7"
+dependencies = [
+ "bevy_app",
+ "bevy_asset",
+ "bevy_color",
+ "bevy_ecs",
+ "bevy_hierarchy",
+ "bevy_math",
+ "bevy_reflect",
+ "bevy_render",
+ "bevy_sprite",
+ "bevy_time",
+ "bevy_transform",
+ "rand",
 ]
 
 [[package]]
