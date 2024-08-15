@@ -19,5 +19,5 @@ It's all in the prelude: `use bevy_cleancut::prelude::*`
 
 |bevy|bevy_cleancut
 |---|---|
-| `0.14.*` | `0.1.*` |
+| `0.14.*` | `0.1.0`-`0.2.x` |
 | `< 0.14` | Unsupported |

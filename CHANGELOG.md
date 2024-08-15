@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Add particles and colors items to the prelude
+
 ## [0.2.0] - 2024-08-15
 
 - Add `PlayerColors` with some good default colors for players.
