@@ -1,6 +1,6 @@
 [package]
 name = "bevy_cleancut"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 description = "Random utility stuff for bevy for my personal use. You're welcome to use it, too, if you like."
 homepage = "https://github.com/CleanCut/bevy_cleancut"
