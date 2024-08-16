@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+## [0.2.3] - 2024-08-16
+
 - Add `Action` enum for use with `leafwing-input-manager` suitable for 2d platformer with `Run` (single axis) and `Jump` (button) variants.
 
 ## [0.2.2] - 2024-08-16
@@ -21,7 +23,8 @@
 - Initial release with `collision_started`, `collision_stopped`, `play_sound`, `particle_trail_bundle`, and `spawn_particle_poof`
 
 <!-- next-url -->
-[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.2...HEAD
+[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.3...HEAD
+[0.2.3]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/CleanCut/bevy_cleancut/compare/v0.1.0...v0.2.0
