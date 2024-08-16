@@ -1,6 +1,9 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Add `platformer_boundaries_collider` function to return compound collider for nice default boundaries for a platformer.
+- (Potentially Breaking) Renamed `collision` module to `rapier` (import from `bevy_cleancut::prelude` to avoid breakage from layout refactors).
+
 ## [0.2.1] - 2024-08-15
 
 - Add particles and colors items to the prelude

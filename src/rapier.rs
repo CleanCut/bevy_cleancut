@@ -50,3 +50,13 @@ where
     }
     None
 }
+
+/// A function that constructs and returns a compound collider with three rectangles bordering the
+/// left, right, and bottom of the default level, perfect for a platformer.
+pub fn platformer_boundaries_collider() -> Collider {
+    Collider::compound(vec![
+        (Vec2::new(0.0, -360.0), 0.0, Collider::cuboid(640.0, 10.0)),
+        (Vec2::new(-640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
+        (Vec2::new(640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
+    ])
+}
