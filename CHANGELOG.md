@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Add `Action` enum for use with `leafwing-input-manager` suitable for 2d platformer with `Run` (single axis) and `Jump` (button) variants.
+
 ## [0.2.2] - 2024-08-16
 
 - Add `platformer_boundaries_collider` function to return compound collider for nice default boundaries for a platformer.

@@ -15,6 +15,7 @@ It's all in the prelude: `use bevy_cleancut::prelude::*`
 |`particle_trail_bundle`|Creates a particle trail as a bundle to be added as a child to an entity|
 |`spawn_particle_poof`|Creates a oneshot particle system that poofs in a global location|
 |`PlayerColors`|A struct with nice default colors to use for players|
+|`Action`|An enum for use with `leafwing-input-manager` suitable for 2d platformer with `Run` (single axis) and `Jump` (button) variants.|
 
 # Compatibility
 
