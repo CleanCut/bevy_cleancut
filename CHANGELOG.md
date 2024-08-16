@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+## [0.2.2] - 2024-08-16
+
 - Add `platformer_boundaries_collider` function to return compound collider for nice default boundaries for a platformer.
 - (Potentially Breaking) Renamed `collision` module to `rapier` (import from `bevy_cleancut::prelude` to avoid breakage from layout refactors).
 
@@ -17,7 +19,8 @@
 - Initial release with `collision_started`, `collision_stopped`, `play_sound`, `particle_trail_bundle`, and `spawn_particle_poof`
 
 <!-- next-url -->
-[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.2...HEAD
+[0.2.2]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/CleanCut/bevy_cleancut/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/CleanCut/bevy_cleancut/compare/v0.0.0...v0.1.0
