@@ -1,4 +1,5 @@
 use bevy::{
+    asset::embedded_asset,
     prelude::*,
     sprite::{MaterialMesh2dBundle, Mesh2dHandle},
 };
@@ -17,6 +18,9 @@ impl Plugin for WinnerPlugin {
             .enable_state_scoped_entities::<WinState>()
             .add_systems(PreUpdate, detect_win.run_if(in_state(WinState::Detecting)))
             .add_systems(Update, display_win.run_if(in_state(WinState::Displaying)));
+
+        let omit_prefix = "src";
+        embedded_asset!(app, omit_prefix, "winner_assets/KaushanScript-Regular.ttf");
     }
 }
 
@@ -55,7 +59,8 @@ fn detect_win(
     // Someone just won, get stuff set up!
     winner.wait_timer = Timer::from_seconds(2.5, TimerMode::Repeating);
     next_state.set(WinState::Displaying);
-    let font = asset_server.load("KaushanScript-Regular.ttf");
+    let font =
+        asset_server.load("embedded://bevy_cleancut/winner_assets/KaushanScript-Regular.ttf");
     commands.spawn((
         StateScoped(WinState::Displaying),
         Name::new("Winner Text"),
