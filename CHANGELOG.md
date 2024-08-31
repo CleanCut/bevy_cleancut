@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Add `WinnerPlugin`. Pause the game, display a "Winner" message along with an enlarged copy of a sprite as the winner. To use it, add the plugin, then in a system access the `Winner` resource and call its `show_winner_screen` method, passing it a sprite entity.
+
 ## [0.2.3] - 2024-08-16
 
 - Add `Action` enum for use with `leafwing-input-manager` suitable for 2d platformer with `Run` (single axis) and `Jump` (button) variants.

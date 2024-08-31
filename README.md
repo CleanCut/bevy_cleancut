@@ -16,6 +16,7 @@ It's all in the prelude: `use bevy_cleancut::prelude::*`
 |`spawn_particle_poof`|Creates a oneshot particle system that poofs in a global location|
 |`PlayerColors`|A struct with nice default colors to use for players|
 |`Action`|An enum for use with `leafwing-input-manager` suitable for 2d platformer with `Run` (single axis) and `Jump` (button) variants.|
+|`WinnerPlugin`| Pause the game, display a "Winner" message along with an enlarged copy of a sprite as the winner. To use it, add the plugin, then in a system access the `Winner` resource and call its `show_winner_screen` method, passing it a sprite entity.|
 
 # Compatibility
 
