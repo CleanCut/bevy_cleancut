@@ -12,4 +12,7 @@ pub mod prelude {
     pub use crate::particles::*;
     pub use crate::rapier::*;
     pub use crate::winner::*;
+    pub use bevy::input::{
+        common_conditions::input_toggle_active, gamepad::GamepadConnectionEvent,
+    };
 }

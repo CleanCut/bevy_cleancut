@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Re-export `input_toggle_active` and `GamepadConnectionEvent` from `bevy`, since they aren't in its prelude.
+
 ## [0.2.5] - 2024-09-02
 
 - Change `platform_boundaries_collider` into `create_gravity2d_boundaries`
