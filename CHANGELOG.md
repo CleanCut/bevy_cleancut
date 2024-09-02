@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Change `platform_boundaries_collider` into `create_gravity2d_boundaries`
+
 ## [0.2.4] - 2024-08-31
 
 - Add `WinnerPlugin`. Pause the game, display a "Winner" message along with an enlarged copy of a sprite as the winner. To use it, add the plugin, then in a system access the `Winner` resource and call its `show_winner_screen` method, passing it a sprite entity.

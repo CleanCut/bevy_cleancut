@@ -51,12 +51,22 @@ where
     None
 }
 
-/// A function that constructs and returns a compound collider with three rectangles bordering the
-/// left, right, and bottom of the default level, perfect for a platformer.
-pub fn platformer_boundaries_collider() -> Collider {
-    Collider::compound(vec![
-        (Vec2::new(0.0, -360.0), 0.0, Collider::cuboid(640.0, 10.0)),
-        (Vec2::new(-640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
-        (Vec2::new(640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
-    ])
+/// A function that spawns a compound collider with three rectangles bordering the
+/// left, right, and bottom of the default level, perfect for a simple game with gravity.
+pub fn create_gravity2d_boundaries(commands: &mut Commands) {
+    commands.spawn((
+        Name::new("Physics Boundaries"),
+        RigidBody::Fixed,
+        TransformBundle::default(),
+        Friction::new(0.0),
+        Restitution {
+            coefficient: 0.0,
+            combine_rule: CoefficientCombineRule::Min,
+        },
+        Collider::compound(vec![
+            (Vec2::new(0.0, -360.0), 0.0, Collider::cuboid(640.0, 10.0)),
+            (Vec2::new(-640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
+            (Vec2::new(640.0, 0.0), 0.0, Collider::cuboid(10.0, 360.0)),
+        ]),
+    ));
 }
