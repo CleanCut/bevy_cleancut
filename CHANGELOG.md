@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+## [0.2.5] - 2024-09-02
+
 - Change `platform_boundaries_collider` into `create_gravity2d_boundaries`
 
 ## [0.2.4] - 2024-08-31
@@ -29,7 +31,8 @@
 - Initial release with `collision_started`, `collision_stopped`, `play_sound`, `particle_trail_bundle`, and `spawn_particle_poof`
 
 <!-- next-url -->
-[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.4...HEAD
+[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.5...HEAD
+[0.2.5]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.1...v0.2.2
