@@ -43,6 +43,7 @@ impl Winner {
     }
 }
 
+#[allow(clippy::too_many_arguments)]
 fn detect_win(
     mut commands: Commands,
     mut winner: ResMut<Winner>,
