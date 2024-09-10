@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+## [0.2.7] - 2024-09-10
+
 - Change `spawn_particle_poof` to take a reference to a Transform, clone the copy internally and set the Z to `10.0`
 - Remove the `winner` plugin. (Moved to `bevy_scoreboard`)
 
@@ -38,7 +40,8 @@
 - Initial release with `collision_started`, `collision_stopped`, `play_sound`, `particle_trail_bundle`, and `spawn_particle_poof`
 
 <!-- next-url -->
-[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.6...HEAD
+[Unreleased]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.7...HEAD
+[0.2.7]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.6...v0.2.7
 [0.2.6]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/CleanCut/bevy_cleancut/compare/v0.2.3...v0.2.4
