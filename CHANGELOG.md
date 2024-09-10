@@ -1,6 +1,8 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Remove the `winner` plugin. (Moved to `bevy_scoreboard`)
+
 ## [0.2.6] - 2024-09-02
 
 - Re-export `input_toggle_active` and `GamepadConnectionEvent` from `bevy`, since they aren't in its prelude.
