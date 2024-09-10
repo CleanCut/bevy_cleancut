@@ -1,6 +1,7 @@
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 
+- Change `spawn_particle_poof` to take a reference to a Transform, clone the copy internally and set the Z to `10.0`
 - Remove the `winner` plugin. (Moved to `bevy_scoreboard`)
 
 ## [0.2.6] - 2024-09-02
