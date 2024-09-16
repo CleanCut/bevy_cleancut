@@ -44,7 +44,7 @@ pub fn particle_trail_bundle() -> (ParticleSystemBundle, Playing) {
 
 /// Spawn a particle poof at the transform's translation, adjusted to a Z of 10.0.
 pub fn spawn_particle_poof(commands: &mut Commands, transform: &Transform) {
-    let mut transform = transform.clone();
+    let mut transform = *transform;
     transform.translation.z = 10.0;
     commands.spawn((
         ParticleSystemBundle {
